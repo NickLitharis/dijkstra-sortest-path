@@ -83,7 +83,7 @@ int main(int argc, char const *argv[])
   printf("Enter the number of vertices:");
   scanf("%d", &n);
   int a[n][n];
-  srand(time(NULL));
+  srand(time(NULL)); //Clock initialation
   for (i = 0; i < n; i++)
   {
     for (j = 0; j < n; j++)
@@ -105,7 +105,7 @@ int main(int argc, char const *argv[])
   clock_t start = clock();
   fastpath(a, source, rad, l);
   clock_t end = clock();
-  ; // Finishing Clock
+  // Finishing Clock
   double mseconds = (double)(end - start) / CLOCKS_PER_SEC;
   printf("\nTime Elapsed: %lf (milliseconds)", mseconds * 1000); // Displaying time in milliseconds
 

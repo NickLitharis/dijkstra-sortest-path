@@ -1,1 +1,1 @@
-Dijkstra sortest path algorithm in C and C++
+Dijkstra sortest path algorithm implementation in C
